@@ -37,7 +37,7 @@ And you are good to go.
 ## How this project does?
 
 1. First of all the data was scraped from Quikr.com (https://quikr.com) 
-Link for data: https://github.com/rajtilakls2510/car_price_predictor/blob/master/quikr_car.csv
+
 
 2. The data was cleaned (it was super unclean :( ) and analysed.
 
