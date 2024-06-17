@@ -90,4 +90,4 @@ Feature extraction using FaceNet, LBP, HOG, VGG16, and VGG19, with details on im
 ## Conclusion
 This project successfully developed a robust anti-spoofing detection system with high accuracy, leveraging advanced machine learning techniques and practical hardware implementation. The Python-based GUI and Raspberry Pi integration further enhance the system's usability and applicability in real-world scenarios.
 
-For more detailed information on each section, please refer to the respective chapters in the main document.
+
