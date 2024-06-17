@@ -1,4 +1,4 @@
-# Summary of README Document
+#  README Document
 
 ## Introduction
 This project focuses on creating a high-performance anti-spoofing detection system using a Convolutional Neural Network (CNN) model. It includes a Python-based graphical user interface (GUI) and a Raspberry Pi 5 implementation to ensure practical application.
