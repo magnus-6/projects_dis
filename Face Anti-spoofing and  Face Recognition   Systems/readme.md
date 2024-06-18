@@ -68,7 +68,8 @@ Feature extraction using FaceNet, LBP, HOG, VGG16, and VGG19, with details on im
 
 ### DenseNet Performance
 
-![Screenshot 2024-06-17 225130](https://github.com/magnus-6/projects_dis/assets/121368258/2d810ad8-76bd-48b5-a953-1ed73ab2b9b8)
+![Screenshot 2024-06-18 105333](https://github.com/magnus-6/projects_dis/assets/121368258/ae00194c-853c-4857-976d-e7f8f4e4cb12)
+
 ## Remark
 
 ### DenseNet Performance
