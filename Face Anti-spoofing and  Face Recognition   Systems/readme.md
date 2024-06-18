@@ -1,4 +1,9 @@
-#  README Document
+#   Document
+# Video Demonstration
+
+
+https://github.com/magnus-6/projects_dis/assets/121368258/641a1ea8-8652-4364-aeeb-1ac692528c52
+
 
 ## Introduction
 This project focuses on creating a high-performance anti-spoofing detection system using a Convolutional Neural Network (CNN) model. It includes a Python-based graphical user interface (GUI) and a Raspberry Pi 5 implementation to ensure practical application.
