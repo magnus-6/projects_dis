@@ -136,14 +136,7 @@ def predict_app():
         predicted_label = out_encoder.inverse_transform(yhat_test_svm)[0]
         print(f"Predicted label: {predicted_label}")
     
-        if(predicted_label == 1):
-            predicted_person = "SYED ZAHEER HOSSAIN"
-        elif(predicted_label == 2):
-            predicted_person = "SURJIT MANDAL"
-        elif(predicted_label == 3):
-            predicted_person = "ANIRBAN GUHA"
-        else:
-            predicted_person = "PERSON IS NOT PRESENT IN OUR DATABASE"
+        
             
         # Clear any existing labels in the text_frame
         for widget in text_frame.winfo_children():
@@ -170,7 +163,7 @@ def predict_app():
         display_label.pack()
 
 # Set the desired width and height
-width, height = 640, 480
+width, height = 1000, 1000
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 
@@ -188,11 +181,11 @@ label_widget = Label(video_frame)
 label_widget.pack()
 
 # Create a blank frame on the right
-blank_frame = Frame(app, width=200, height=480)
+blank_frame = Frame(app, width=300, height=580)
 blank_frame.pack(side=RIGHT)
 
 # Create a frame within the image frame (top part)
-image_frame = Frame(blank_frame, width=400, height=240)
+image_frame = Frame(blank_frame, width=600, height=340)
 image_frame.pack(side=TOP)
 
 image_widget = Label(image_frame)
@@ -202,7 +195,7 @@ image_widget.pack()
 right_frame = Frame(blank_frame, width=400, height=240)
 right_frame.pack()
 
-text_frame = Frame(right_frame, width=400, height=200)
+text_frame = Frame(right_frame, width=500, height=200)
 text_frame.pack()
 
 button_frame = Frame(right_frame, width=400, height=40 )
