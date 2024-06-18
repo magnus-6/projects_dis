@@ -69,6 +69,18 @@ Feature extraction using FaceNet, LBP, HOG, VGG16, and VGG19, with details on im
 ### DenseNet Performance
 
 ![Screenshot 2024-06-17 225130](https://github.com/magnus-6/projects_dis/assets/121368258/2d810ad8-76bd-48b5-a953-1ed73ab2b9b8)
+## Remark
+
+### DenseNet Performance
+The DenseNet model achieved an **AUC of 0.999775** and an **accuracy of 0.955** for anti-spoofing detection.
+
+### Facial Recognition - Cropped Data
+
+| No. of Subjects | FaceNet | LBP    | HOG   | VGG16  | VGG19  |
+|-----------------|---------|--------|-------|--------|--------|
+| 233             | **90.272**  | 14.235 | 20.974| 20.815 | 8.948  |
+
+Given that **FaceNet performs best for facial recognition**, achieving an accuracy of **90.272%** on cropped data, it will be used for the recognition system after preprocessing using MTCNN. Therefore, **DenseNet will be used for anti-spoofing**, and **FaceNet will be utilized for recognition** in this system.
 
 ### Dataset Composition for DenseNet
 - **Training and Testing Set**: 200 images total (100 training, 100 testing)
