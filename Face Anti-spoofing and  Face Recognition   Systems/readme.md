@@ -95,6 +95,7 @@ Given that **FaceNet performs best for facial recognition**, achieving an accura
 
 ## Hardware Implementation
 - **Implementation on Raspberry Pi**: Included hardware and software setup, conducting training and testing, and overcoming implementation challenges.
+![Screenshot 2024-06-18 112534](https://github.com/magnus-6/projects_dis/assets/121368258/e779a91a-4c4a-4261-a7bf-d6141e938316)
 
 ## GUI Implementation
 - **Development of GUI**: Using Python and Tkinter.
