@@ -99,6 +99,7 @@ Given that **FaceNet performs best for facial recognition**, achieving an accura
 ## GUI Implementation
 - **Development of GUI**: Using Python and Tkinter.
 - **Integration**: GUI with the system for practical applications.
+![Screenshot 2024-06-18 110654](https://github.com/magnus-6/projects_dis/assets/121368258/78c01482-4f62-4e7a-8843-5e672d3f8212)
 
 ## Conclusion
 This project successfully developed a robust anti-spoofing detection system with high accuracy, leveraging advanced machine learning techniques and practical hardware implementation. The Python-based GUI and Raspberry Pi integration further enhance the system's usability and applicability in real-world scenarios.
