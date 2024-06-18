@@ -20,6 +20,7 @@ This project focuses on creating a high-performance anti-spoofing detection syst
 7. **GUI Implementation**: Development and integration using Python and Tkinter.
 
 ## Dataset Description
+
 ### Antispoofing Dataset
 - **Total Folders**: 233
 - **Each Folder**: 12 original and 12 fake images
@@ -27,6 +28,13 @@ This project focuses on creating a high-performance anti-spoofing detection syst
 ### Facial Recognition Dataset
 - **Total Folders**: 233
 - **Each Folder**: 12 images
+
+**The dataset is created and organized by me by manually collecting images from participants. This dataset is completely new and unique**, with separate sets for processed and non-processed images. The total size of the dataset is calculated as follows:
+
+- **Antispoofing Dataset**: 2 * (233 * 24) = 11,184 images
+- **Facial Recognition Dataset**: 2 * (233 * 12) = 5,592 images
+
+Therefore, the overall dataset size is 16,776 images.
 
 ## Data Preprocessing
 - **Resizing**: Images to 224x224 pixels.
