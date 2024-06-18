@@ -58,23 +58,7 @@ Feature extraction using FaceNet, LBP, HOG, VGG16, and VGG19, with details on im
 - **Transfer Learning**: Using DenseNet for enhanced performance.
 
 ## Performance and Evaluation
-### Antispoofing - Uncropped Data
 
-| No. of Subjects | FaceNet | LBP    | HOG   | VGG16  | VGG19  |
-|-----------------|---------|--------|-------|--------|--------|
-| 233             | 74.356  | 91.309 | 97.818| 95.708 | 96.352 |
-
-### Antispoofing - Cropped Data
-
-| No. of Subjects | FaceNet | LBP    | HOG   | VGG16  | VGG19  |
-|-----------------|---------|--------|-------|--------|--------|
-| 233             | 60.30   | 91.881 | 87.232| 92.239 | 65.379 |
-
-### Facial Recognition - Uncropped Data
-
-| No. of Subjects | FaceNet | LBP    | HOG   | VGG16  | VGG19  |
-|-----------------|---------|--------|-------|--------|--------|
-| 233             | 41.732  | 64.306 | 78.239| 95.422 | 93.772 |
 
 ### Facial Recognition - Cropped Data
 
